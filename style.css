@@ -1,0 +1,96 @@
+/* body {
+    background-color: gray;
+/* }
+.grid-cont {
+    min-height: 100vh;
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: [col1] 50px [col2]50px [col3] 50px [col4] 50px;
+    grid-template-rows:    [row1] 50px [row2]50px [row3] 50px [row4] 50px;
+
+}
+.grid-cont > header {
+    grid-column: col1 / span 2;
+    grid-row: row1 / span 1;
+    background: rgb(47, 141, 255);
+}
+.grid-cont > main {
+    grid-column: col1 / span 2;
+    grid-row: row2 /row2;
+    background: rgb(0, 255, 102);  
+}
+.grid-cont >aside {
+    grid-column: col4 / span 1;
+    grid-row: row1 /span 4;
+    background: yellow;
+}
+.grid-cont >aside2 {
+    grid-column: col4 / span 1;
+    grid-row: row1 /span 4;
+    background: rgb(185, 185, 105);
+}
+
+.grid-cont > footer {
+    grid-column: col1 / span 4;
+    grid-row: row4 / span 1;
+    background: blue;
+}
+.grid-cont > footer2 {
+    grid-column: col1 / span 4;
+    grid-row: row4 / span 1;
+    background: rgb(139, 139, 181);
+}
+.grid-cont > nav {
+    background: slateblue;
+                                                              
+} */
+/*      
+}
+.grid-cont {
+    min-height: 100vh;
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: 
+
+    [col_1] 100px [col_2] 1fr [col_3] 2fr [col_4] 1fr [col_5] 20vw;
+
+    grid-template-rows:
+
+    [row_1] 20vh [row_2] 4fr [row_3] 1fr [row_4] 300px;
+
+}
+.grid-cont > header {
+    grid-column: col_2 / span 3;
+    grid-row: row_1 / span 1;
+    background: rgb(47, 141, 255);
+}
+.grid-cont > main {
+    grid-column: col_2 / span 3;
+    grid-row: row_2 /span1;
+    background: rgb(0, 255, 102);  
+}
+.grid-cont >aside {
+    grid-column: col_5  / span 1;
+    grid-row: row_1 /span 4;
+    background: yellow;
+}
+
+.grid-cont > footer {
+    grid-column: col_1 / span 4;
+    grid-row: row_4 / span 1;
+    background: blue;
+}
+
+.grid-cont > nav {
+    grid-column: col_1 / span 1;
+    grid-row:row_1 / span 3 ;
+    background: slateblue;                                                           
+} */
+container{
+    border: 2px solid black;
+}
+item{
+    border: 2px solid black;
+}
